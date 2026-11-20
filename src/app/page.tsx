@@ -1527,9 +1527,9 @@ export default function Dashboard() {
               />
             </div>
 
-            {/* ── OSIRIS title — letter-by-letter stagger ── */}
+            {/* ── MKF OSINT title — letter-by-letter stagger ── */}
             <div className="flex items-center gap-[2px] mb-3 z-[2]">
-              {'OSIRIS'.split('').map((letter, i) => (
+              {'MKF OSINT'.split('').map((letter, i) => (
                 <motion.span
                   key={i}
                   initial={{ opacity: 0, y: 20, filter: 'blur(8px)' }}
@@ -1552,7 +1552,7 @@ export default function Dashboard() {
                 className="overflow-hidden whitespace-nowrap"
               >
                 <p className="text-[11px] md:text-[10px] font-mono tracking-[0.5em] text-[var(--gold-primary)]" style={{ opacity: 0.8 }}>
-                  GLOBAL INTELLIGENCE PLATFORM
+                  MKF OSINT PLATFORM
                 </p>
               </motion.div>
             </div>
