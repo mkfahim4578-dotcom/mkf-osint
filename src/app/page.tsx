@@ -1,3 +1,4 @@
+"use client";
 import MediaPanel from '@/components/MediaPanel';
 'use client';
 
